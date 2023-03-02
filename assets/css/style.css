@@ -3,6 +3,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: black;
 }
 
 .spinnder-box{
@@ -15,25 +16,32 @@ body{
 }
 
 .circle-box{
-    width: 150px;
-    height: 150px;
+    width: 170px;
+    height: 170px;
     padding: 3px;
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 60%;
+    border-radius: 100%;
+    border-width: 10px;
+    border-color: rgb(255, 40, 255);
+    border-style:groove;
+    border-bottom: 70px;
+    filter: blur(px);
     background: rgba(104, 9, 83, 0.56);
-    background: linear-gradient(0deg, rgb(102, 6, 96) 33%, rgba(244, 8, 252, 0.712) 100%
+    background: linear-gradient(0deg, rgb(102, 6, 96) 33%, rgba(244, 8, 252, 0.921) 100%
     );
-    animation: spin .6s linear 0s infinite;
+    animation: spin .7s linear 0s infinite;
 }
 
 .circle-core{
     width: 65%;
     height: 65%;
-    background: #ffffff;
+    background: black;
     border-radius: 80%;
+    /* border-style: groove; */
     animation: pulse 2s infinite;
+    filter: blur(1.5px);
     /* animation-direction: alternate; */
     -webkit-animation-name: pulse;
     animation-name: pulse;

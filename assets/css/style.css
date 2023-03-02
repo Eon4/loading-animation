@@ -3,6 +3,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: black;
 }
 
 .spinnder-box{
@@ -26,7 +27,7 @@ body{
     border-color: rgb(255, 40, 255);
     border-style:groove;
     border-bottom: 70px;
-    filter: blur(1px);
+    filter: blur(px);
     background: rgba(104, 9, 83, 0.56);
     background: linear-gradient(0deg, rgb(102, 6, 96) 33%, rgba(244, 8, 252, 0.921) 100%
     );
@@ -36,11 +37,11 @@ body{
 .circle-core{
     width: 65%;
     height: 65%;
-    background: #ffffff;
+    background: black;
     border-radius: 80%;
     /* border-style: groove; */
     animation: pulse 2s infinite;
-    /* filter: blur(2px); */
+    filter: blur(1.5px);
     /* animation-direction: alternate; */
     -webkit-animation-name: pulse;
     animation-name: pulse;

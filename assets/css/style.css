@@ -33,6 +33,7 @@ body{
     height: 80%;
     background: #ffffff;
     border-radius: 50%;
+    border-color: transparent;
 }
 
 @keyframes spin{
@@ -43,3 +44,16 @@ body{
         transform: rotate(300deg);
     }
 }
+
+@keyframes pulse {
+    0% {
+      -webkit-transform: scale(1);
+    }
+    50% {
+      -webkit-transform: scale(1.5);
+    }
+    100% {
+      -webkit-transform: scale(1);
+    }
+  }
+  

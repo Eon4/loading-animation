@@ -29,11 +29,14 @@ body{
 }
 
 .circle-core{
-    width: 80%;
-    height: 80%;
+    width: 65%;
+    height: 65%;
     background: #ffffff;
-    border-radius: 50%;
-    border-color: transparent;
+    border-radius: 80%;
+    animation: pulse 2s infinite;
+    /* animation-direction: alternate; */
+    -webkit-animation-name: pulse;
+    animation-name: pulse;
 }
 
 @keyframes spin{

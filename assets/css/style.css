@@ -23,11 +23,11 @@ body{
     align-items: center;
     border-radius: 100%;
     border-width: 10px;
-    border-color: rgb(1, 5, 233);
-    border-style:solid;
-    border-bottom: 30px;
+    border-color: rgb(255, 40, 255);
+    border-style:groove;
+    border-bottom: 70px;
     background: rgba(104, 9, 83, 0.56);
-    background: linear-gradient(0deg, rgb(102, 6, 96) 33%, rgba(244, 8, 252, 0.712) 100%
+    background: linear-gradient(0deg, rgb(102, 6, 96) 33%, rgba(244, 8, 252, 0.921) 100%
     );
     animation: spin .7s linear 0s infinite;
 }

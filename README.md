@@ -1,2 +1,2 @@
 # loading-animation
-loading animation screen CSS
+loading animation screen CSS for weather app

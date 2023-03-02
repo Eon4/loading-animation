@@ -1,0 +1,45 @@
+body{
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.spinnder-box{
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+}
+
+.circle-box{
+    width: 150px;
+    height: 150px;
+    padding: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 60%;
+    background: rgba(104, 9, 83, 0.56);
+    background: linear-gradient(0deg, rgb(102, 6, 96) 33%, rgba(244, 8, 252, 0.712) 100%
+    );
+    animation: spin .6s linear 0s infinite;
+}
+
+.circle-core{
+    width: 80%;
+    height: 80%;
+    background: #ffffff;
+    border-radius: 50%;
+}
+
+@keyframes spin{
+    from{
+        transform: rotate(0);
+    }
+    to{
+        transform: rotate(300deg);
+    }
+}

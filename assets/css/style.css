@@ -37,7 +37,7 @@ body{
     height: 65%;
     background: #ffffff;
     border-radius: 80%;
-    animation: pulse 2s infinite;
+    animation: pulse 3s infinite;
     /* animation-direction: alternate; */
     -webkit-animation-name: pulse;
     animation-name: pulse;
